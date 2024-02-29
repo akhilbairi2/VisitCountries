@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-container {
+  background-color: #161624;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 50px;
+  overflow-y: scroll;
+}
+.main-card {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin-bottom: 100px;
+}
+@media screen and (min-width: 768px) {
+  .main-card {
+    width: 60%;
+  }
+}
+.head {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 26px;
+  align-self: flex-start;
+}
+.ul-container1 {
+  width: 100%;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  height: 38vh;
+  overflow-y: scroll;
+  background-color: #1f1f2f;
+  padding-left: 0px;
+}
+.ul-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+  list-style-type: none;
+  height: 100%;
+}
+.visited-countries {
+  color: #fff;
+  font-size: 24px;
+  font-weight: none;
+  font-family: 'Roboto';
+}
+.no-visit {
+  color: #f1f5f9;
+  font-size: 20px;
+  font-family: 'Roboto';
+  align-self: center;
+  max-height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .no-visit {
+    font-size: 26px;
+  }
+}
